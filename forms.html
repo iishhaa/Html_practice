@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/image.html">
+            <label for="username">username :</label>
+            <input type="text" id="username" placeholder="enter name" required>
+            <br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="email" required>
+            <br><br>
+            <label for="password">password :</label>
+            <input type="password" id="password" placeholder="password" required>
+            <br><br>
+            <label for="D.O.B">D.O.B :</label>
+            <input type="date" id="D.O.B" placeholder="" required>
+            <br><br>
+            <!-- for  file choose -->
+            <label for="10th marksheet">Marksheet of 10 :</label>
+            <input type="file" id="10th marksheet" required>
+            <br><br>
+            <label for="color">Favourite Color :</label>
+            <input type="color" id="color" required>
+            <br><br>
+            <label for="proficiency">Proficient Language :</label>
+            <input type="range" id="proficiency" required>
+            <br><br>
+            <!-- for choose gender by the help of radio button basically radio alows to choose only one option -->
+            <label for="gender">Gender :</label><br>
+            <label for="female">Female</label></td>
+            <input type="radio" id="female" name="gender" value="female">
+             <br>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender" value="Male">
+                <br>
+                <label for="Others">Others</label>
+                <input type="radio" id="Others" name="gender" value="Others">
+                <br><br>
+                <!-- checkbox it is used for to chhose mutiple options -->
+                <label for="language">language</label>
+                <br>
+                <label for="C++">C++</label>
+                <input type="checkbox" id="C++" name="language" value="C++">
+                <br>
+                <label for="C">C</label>
+                <input type="checkbox" id="C" name="language" value="C">
+                <br>
+                <label for="python">python</label>
+                <input type="checkbox" id="python" name="language" value="python">
+                <br><br>
+                <!--  dropdown comes by select tag -->
+                 <label for="country">Country</label>
+                 <select name="country" id="">
+                 <option value="india">india</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="France">france</option>
+                <option value="germany">germany</option>
+                <br><br>
+                <!-- text area -->    
+                 <div>            
+                 <textarea name="feedback" id="feedback"  placeholder=" write your review" rows="5" cols="20"></textarea>
+                 </div>
+    </form>
+</body>
+
+</html>
